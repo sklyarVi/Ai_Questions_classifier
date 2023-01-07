@@ -1,0 +1,41 @@
+What is molasses @ Item Information
+Where do bears live @ Location
+Why the sky is blue @ Item info
+How to Make Borscht @ Instruction
+How to learn to fly @ Instruction
+How to wake up early @ Instruction
+How to find happiness @ Instruction
+How to kill a cockroach @ Instruction
+How many stars in the sky @ Number
+How tall is the Eiffel Tower @ Quantity
+Why does it rain @ Item info
+What movies was DiCaprio in @ Item info
+When was Einstein born @ Date of birth
+When World War I started @ Date
+What year was the Titanic built @ Date
+When was the Battle of Austerlitz @ Date
+What year was the Seven Years' War @ Date
+When Napoleon Bonaparte reigned @ Date
+When Napoleon Bonaparte's reign ended @ Date
+When was the Battle of Poltava @ Date
+What year World War I ended @ Date
+In what year was the Treaty of Tilsit signed @ Date
+What city begins in 1147 @ Date
+Who is Einstein @ Personality Info
+What is "rain" @ Subject Information
+Who is Christopher Columbus @ Personality information
+What was Columbus' name @ Name
+Who wrote the work "Crime and Punishment" @ Name @ Name
+What is the average depth of the Pacific Ocean @ Name
+What is the height of Big Ben @ Number
+Where is the Sydney Opera House @ Location
+Where is the largest lake @ Location
+Which country has Warsaw as its capital @ Location
+Where is the city of Krakow located @ Location
+What is the largest peak in Europe @ Name
+When is Mother's Day @ Date
+What is your favorite color @ Personality information
+What is your favorite movie @ Personality Information
+What is the name of the President of the United States @ Name
+What is the zip code for the city of New York @ Location
+How to change the system language to Spanish @ Instruction
