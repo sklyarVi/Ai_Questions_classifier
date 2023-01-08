@@ -19,3 +19,13 @@ SGDClassifier, który jest implementacją klasyfikatora SGD (stochastyczny spade
 Model jest trenowany na danych treningowych i następnie stosowany do przewidywania etykiet dla danych treningowych (co ma służyć do sprawdzenia jego poprawności).
 
 Na końcu użytkownik jest pytany o pytanie, które chce zadać, a następnie model jest używany do przewidzenia etykiety dla tego pytania. Ostatecznie, przewidziana etykieta jest wyświetlana.
+
+Ten kod tworzy model uczący się ze zbioru danych i przeprowadza testowanie jego dokładności.
+
+Pierwsza część kodu importuje niezbędne biblioteki i funkcje. Następnie zdefiniowana jest funkcja "text_cleaner", która przyjmuje jako argument tekst i język, i zwraca tekst, który został przetworzony przez redukcję słów do ich rdzenia i zamianę wszystkich liter na małe.
+
+Następnie plik "model.txt" jest otwierany i przeczytany, a jego zawartość jest przekształcana do formatu JSON i zapisywana do pliku "model.json".
+
+Funkcja "train_test_split" dzieli podane dane na zbiór uczący i zbiór testowy z określonym współczynnikiem podziału (domyślnie 20% danych jest używana jako zbiór testowy).
+
+Funkcja "openai" otwiera plik "model.json", wczytuje dane i dzieli je na zbiór uczący i testowy za pomocą funkcji "train_test_split". Następnie tworzy sekwencję kroków (pipeline) używającą TfidfVectorizer i SGDClassifier, która jest stosowana do danych uczących. Model jest oceniany na zbiorze testowym i wynik jest wyświetlany. Następnie model jest trenowany na całym zbiorze danych uczących i używany do przewidywania etykiet dla danych uczących i testowych. Raport klasyfikacji jest wyświetlany, a następnie użytkownik jest proszony o wprowadzenie pytania, a model jest używany do przewidzenia etykiety dla tego pytania.
